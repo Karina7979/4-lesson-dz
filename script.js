@@ -16,3 +16,28 @@ One: 'That's great. Well, you better get going. You don't want to be late.'
 Two: 'I'll see you next time.'
 One: 'Sure. Bye. `;
 
+
+// console.log(str.replace(/\'/g,'"'));
+console.log(str.replace(/\W\'/g,'"'));
+// не совсем корректно работает
+
+
+//=============================================================================
+
+// домашнаяя работа 3
+
+// let userName = document.querySelector('.name');
+// let phone = document.querySelector('.number');
+// let email = document.querySelector('.email');
+// let text = document.querySelector('.text');
+// let btn = document.querySelector('button');
+// // btn.addEventListener('click', clickOnButton);
+
+// userName.addEventListener('input', function(event) {
+//     if(userName === /\W/g) {
+//         userName.classList.add('error');
+//     }
+// })
+
+    
+
